@@ -4,9 +4,11 @@ root = Tk()
 root.config(background="black",borderwidth=12)
 root.title("Late No More")
 root.geometry("400x400")
+#Entry for employee name
 n = Entry(root, width=15)
 n.grid(column=1,row=0)
 
+#Entry for employee ID
 i = Entry(root, width=15)
 i.grid(column=1,row=3)
 
